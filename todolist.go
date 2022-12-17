@@ -13,7 +13,7 @@ import (
 	"strconv"
 )
 
-var db, _ = gorm.Open("mysql", "root:root@/todolist?charset=utf8&parseTime=True&loc=Local")
+var db, _ = gorm.Open("mysql", "user:pass@/todolist?charset=utf8&parseTime=True&loc=Local")
 
 type TodoItemModel struct {
 	Id          int `gorm:"primary_key"`
