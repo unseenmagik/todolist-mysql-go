@@ -1,0 +1,5 @@
+# ignore ALL .Mac files
+.DS_STORE
+
+# ignore ALL files in ANY directory named temp
+.idea/
